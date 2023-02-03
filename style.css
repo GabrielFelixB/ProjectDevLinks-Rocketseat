@@ -27,6 +27,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body {
@@ -85,7 +86,7 @@ a {
   z-index: 1;
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%); 
 }
 
 .light #switch button {
@@ -168,4 +169,19 @@ footer {
 
 footer p a {
   text-decoration: underline;
+}
+
+
+@media  screen and (min-width: 600px) {
+
+  :root{
+    --bg-url: url(./assets/img/bg-desktop.jpg);
+  }
+  
+  .light{
+    --bg-url: url(./assets/img/bg-light-desktop.jpg);
+  }
+
+
+
 }
