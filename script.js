@@ -1,4 +1,4 @@
-function toggleMode() {
+function _toggleMode() {
   const html = document.documentElement
 
   // if(html.classList.contains('light')){
