@@ -1,4 +1,4 @@
-:root{
+:root {
   --text-color: white;
   --bg-url: url(/assets/img/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
@@ -8,7 +8,7 @@
   --switch-bg: url(/assets/img/MoonStars.svg);
 }
 
-.light{
+.light {
   --text-color: black;
   --bg-url: url(/assets/img/bg-light-mobile.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
@@ -35,8 +35,9 @@ body {
 }
 
 .container {
-  width: 360px;
-  height: 712px;
+  width: 100%;
+  max-width: 588px;
+  height: 100%;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -66,7 +67,7 @@ a {
 }
 
 /* switch */
-#switch{
+#switch {
   /* border: 1px solid white; */
   position: relative;
   width: 64px;
@@ -74,7 +75,7 @@ a {
   margin: 4px auto;
 }
 
-#switch button{
+#switch button {
   width: 32px;
   height: 32px;
   background: white var(--switch-bg) no-repeat center;
@@ -87,12 +88,12 @@ a {
   transform: translateY(-50%);
 }
 
-.light #switch button{
+.light #switch button {
   right: 0;
   left: initial;
 }
 
-#switch span{
+#switch span {
   display: block;
   width: 64px;
   height: 24px;
