@@ -176,7 +176,7 @@ footer p a {
 }
 
 
-@media screen and (min-width: 600px) {
+@media(min-width: 600px) {
 
   :root {
     --bg-url: url(./assets/img/bg-desktop.jpg);
