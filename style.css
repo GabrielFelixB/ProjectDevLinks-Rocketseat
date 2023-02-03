@@ -57,7 +57,15 @@ a {
 
 #profile img {
   width: 112px;
+  height: 111px;
+  display: block;
+  margin: 0 auto;
+  background: url(./assets/img/Avatar.png) no-repeat top center/cover;
   image-rendering: optimizeQuality;
+}
+
+#profile img[alt]{
+  color: transparent;
 }
 
 #profile p {
